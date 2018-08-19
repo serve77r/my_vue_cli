@@ -20,7 +20,7 @@ module.exports = {
   resolve:{
     extensions:[".ts", ".tsx", ".js",".vue"],
     alias: {
-      'vue$': 'vue/dist/vue.js'
+      'vue$': 'vue/dist/vue.js'//使用vue.js，才能调用vue，否则报错
     }
   },
   plugins:[
