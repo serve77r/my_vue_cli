@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  height: 200px;
+  width: 400px;
+  overflow: hidden;
+  background:url('./s.jpg') left top repeat;
+}
